@@ -1,4 +1,4 @@
-# Copyright Broadcom, Inc. All Rights Reserved.
+F# Copyright Broadcom, Inc. All Rights Reserved.
 # SPDX-License-Identifier: APACHE-2.0
 
 ## @section Global parameters
@@ -360,7 +360,7 @@ postgresql:
   ## @param postgresql.readinessProbe.successThreshold Success threshold for readinessProbe
   ##
   readinessProbe:
-    enabled: false
+    enabled: true
     initialDelaySeconds: 5
     periodSeconds: 10
     timeoutSeconds: 5
