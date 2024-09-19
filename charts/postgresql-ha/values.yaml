@@ -30,7 +30,7 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  defaultStorageClass: ""
+  defaultStorageClass: "rook-ceph-block"
   storageClass: ""
   postgresql:
     username: ""
