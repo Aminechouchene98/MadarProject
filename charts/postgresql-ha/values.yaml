@@ -30,7 +30,7 @@ global:
   ##   - myRegistryKeySecretName
   ##
   imagePullSecrets: []
-  defaultStorageClass: "rook-ceph-block"
+  defaultStorageClass: ""
   storageClass: ""
   postgresql:
     username: ""
@@ -2043,7 +2043,7 @@ persistence:
     - ReadWriteOnce
   ## @param persistence.size Persistent Volume Claim size
   ##
-  size: 10Gi
+  size: 8Gi
   ## @param persistence.annotations Persistent Volume Claim annotations
   ##
   annotations: {}
